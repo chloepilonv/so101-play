@@ -1,0 +1,17 @@
+# secrets / machine-specific config (copy from the *.example files)
+.env
+env.sh
+nebius/nebius.env
+*.pem
+nebius_ssh*
+
+# outputs
+outputs/
+__pycache__/
+*.pyc
+scripts/goal.json
+scripts/pose_k.json
+scripts/*_view.png
+scripts/cam*.png
+homography.npz
+.DS_Store
